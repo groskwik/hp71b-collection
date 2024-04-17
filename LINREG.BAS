@@ -1,0 +1,5 @@
+10 INPUT "X1,Y1: ";X1,Y1
+20 INPUT "X2,Y2: ";X2,Y2
+30 INPUT "X: ";X
+40 Y=(Y2-Y1)/(X2-X1)*(X-X2)+Y2
+50 DISP "Y = ";Y
